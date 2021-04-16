@@ -1,0 +1,30 @@
+.Card{
+    width: 100%;
+}
+
+.Card h1{
+    float: left;
+    margin-left:117px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    color: rgb(204, 197, 197);
+}
+
+.Card ul{
+    list-style: none;
+    float: left;
+    margin-left: 79px;
+    margin-top: 10px;
+}
+
+.Card a{
+    float: left;
+    margin: 5px 0px;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+}
+
+.Card a:hover,a:active{
+    color: greenyellow;
+}

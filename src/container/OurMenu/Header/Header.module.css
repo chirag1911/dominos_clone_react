@@ -1,0 +1,128 @@
+.Header{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: #39689b;
+}
+
+.SideDrawer{
+    float: left;
+    margin-top: 15px; 
+    margin-left: 38px;
+}
+
+.SideDrawer div{
+    height: 1.5px;
+    width: 25px;
+    margin-top: 5px;
+    background-color: white;
+}
+
+.Header img{
+    width: 200px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.UL {
+    list-style: none;
+    display: inline-flex;
+    margin-left: 90px;
+    margin-right: 20px;
+    /* position: fixed; */
+}
+
+.Header li, .UL label{
+    margin-top: -2px;
+    font-size: 18px;
+    color: aliceblue;
+    margin-right: 20px;
+}
+
+.Header button{
+    background-color:rgb(236, 40, 40);
+    width: 160px;
+    height: 40px;
+    border: 1px solid rgb(236, 40, 40);
+    margin-right: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: azure;
+    border-radius: 4px;
+}
+
+.Header button:hover{
+    background-color: azure; 
+    color:rgb(236, 40, 40);  
+    cursor: pointer;
+}
+
+.SecondHeader{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    /* margin-left: 100px; */
+    padding-top: 30px;
+    box-shadow: 2px 2px 10px rgb(86, 139, 189);
+}
+
+.SecondHeader ul{
+    list-style: none;
+    display: inline-flex;
+    float: left;
+    margin-left: 70px;
+    /* position: fixed; */
+}
+
+.SecondHeader li{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(143, 147, 150);
+    margin-right: 32px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.SecondHeader li:hover, li:active, .active{
+    color: green;
+}
+
+.address{
+    width: 250px;
+    height: 35px;
+    background-color: #417bb9;
+    margin-top: -10px;
+    border: 1px solid #39689b;
+    margin-right: 30px;
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.address::placeholder{
+    color: white;
+    text-align: center;
+}
+
+.account{
+    float: right;
+    width: 200px;
+    height: 35px;
+    margin-top: -10px;
+}
+
+.account p{
+    color: white;
+    margin-top: 0px;
+    margin-bottom:0px;
+}
+
+.account Link{
+    margin-right: 20px;
+    text-decoration: none;
+}

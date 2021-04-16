@@ -1,0 +1,29 @@
+.Card{
+    background-color:white;
+    width: 30%;
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px rgb(153, 148, 148);
+    margin: 5px;
+}
+
+.Card h1{
+    color: rgb(22, 98, 165);
+    padding-top: 5px;
+}
+
+.Card button{
+    margin-top: 20px;
+    height: 40px;
+    width: 150px;
+    border-radius: 4px;
+    border: 1px solid white;
+    font-size: 16px;
+    color:rgb(221, 39, 39);
+    background-color: rgb(138, 230, 77);
+}
+
+.Card button:hover,button:active{
+    background-color: rgb(221, 39, 39);
+    color:  rgb(138, 230, 77);
+    cursor: pointer;
+}

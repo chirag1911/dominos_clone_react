@@ -1,0 +1,153 @@
+/* .main{
+    width: 100%;
+    height: 400px;
+    border: 0in;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.divided{
+    float: left;
+    width: 33%;
+} */
+
+
+.Right{
+    width: 25%;
+    position: absolute;
+    margin-left: 74%;
+    margin-top: 0px;
+}
+
+.Empty{
+    width: 300px;
+    height: 430px;
+    background-color: white;
+    position: fixed;
+    margin-top: 90px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 10px silver;
+}
+
+.CartWithItem{
+    width: 300px;
+    height: 360px;
+    position: fixed;
+    margin-top: 90px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 10px silver;
+    background-color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.CartWithItem button{
+    margin-top: 248px;
+    position: fixed;
+}
+
+.Right img{
+    width: 300px;
+    height: 120px;
+    margin-left: 0px;
+    margin-top: -50px;
+}
+
+.UpperCard{
+    width: 100%;
+    height: 100px;
+    margin-top: 5px;
+    /* background-color: red; */
+}
+
+.UpperCard img{
+    height: 83px;
+    width: 35%;
+    margin: 5px 0px 0px 10px;
+    float: left;
+    border-radius: 10px;
+}
+
+.UpperCard div{
+    width: 65%;
+    float: left;
+    margin-left: 42%;
+    margin-top: -100px;
+    text-align: left;
+    color: #82accf;
+}
+
+.cardheading{
+    color: rgb(13, 55, 94);
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.cardcap{
+    font-size: 13px;
+    margin-right: 20px;
+    margin-top: -10px;
+    color: rgb(125, 130, 133);
+}
+
+.CardLeft{
+    width: 40%;
+    float: left;
+    margin-top: 0px;
+    display: inline-flex;
+    margin-left: 18px;
+}
+
+.CardLeft div{
+    width: 33%;
+    height: 30px;
+    background-color: white;
+    border: 1px solid silver;
+    /* margin-bottom: 10px; */
+}
+
+.CardLeft div:hover{
+    cursor: pointer;
+}
+
+.CardLeft p{
+    text-align: center;
+    margin-top: 1px;
+    font-weight: 600;
+}
+
+.CardRight{
+    float:'left'; 
+    width: 60%;
+    margin-left: 50%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(22, 80, 128);
+}
+
+.submit{
+    position: fixed;
+    margin-top: 450px;
+    width: 300px;
+    border: 2px solid whitesmoke;
+    height: 80px;
+    background-color: rgb(237, 245, 250);
+}
+
+.submit button{
+    width: 80%;
+    height: 35px;
+    background-color: rgb(5, 233, 5);
+    border: 0.1px solid white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    margin-top: -10px;
+}
+
+.submit button:hover{
+    cursor: pointer;
+}

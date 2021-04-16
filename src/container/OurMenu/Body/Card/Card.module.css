@@ -1,0 +1,76 @@
+.Card{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 2px 2px 10px silver;
+    background-size: auto;
+    margin: 20px;
+}
+
+.Card img{
+    width: 100%;
+    height: 140px;
+    margin: 1px;
+}
+
+.container{
+    width: 100%;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+p{
+    color: rgb(141, 144, 146);
+    overflow: hidden;
+}
+
+/* .Left{
+    width: 40%;
+    float: left;
+    margin-top: -10px;
+}
+
+.Right{
+    width: 60%;
+    float: left;
+    margin-top: -10px;
+} */
+
+.Cartbutton{
+    margin-top: 20px;
+    margin-right: 40px;
+    float: right;
+    width: 102px;
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(5, 233, 5);
+    border: 1.5px solid rgb(5, 233, 5);
+    background-color: white;
+    border-radius: 4px;
+}
+
+.Cartbutton:hover, .Cartbutton:active{
+    background-color: rgb(5, 233, 5);
+    color: white;
+    cursor: pointer;
+    border: 1.5px solid white;
+}
+
+hr{
+    width: 80%;
+    float: left;
+    border:0.1px solid silver;
+}
+/* 
+.dropdown{
+    padding-top: -2000px;
+    width: 80%;
+    height: 20px;
+    font-size: 10px;
+    background-color: white;
+    border: 2px solid white;
+    text-align: left;
+} */
